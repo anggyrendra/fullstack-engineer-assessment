@@ -1,0 +1,11 @@
+Usage:
+  php hidden_item.php                  Solve for all valid (A,B,C) combinations.
+  php hidden_item.php --steps A B C    Solve for a concrete A, B, C.
+  php hidden_item.php --no-grid        Omit the bonus grid display.
+  php hidden_item.php --help           Show this help.
+
+The program outputs the list of probable coordinate points where the hidden
+item might be located, given the fixed navigation order:
+  Up/North A steps, then Right/East B steps, then Down/South C steps.
+
+Coordinates are (row, col) with (0,0) at the top-left of the grid.

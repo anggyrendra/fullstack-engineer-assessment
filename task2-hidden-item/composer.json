@@ -1,0 +1,26 @@
+{
+    "name": "fomotoko/hidden-item",
+    "description": "Task 2 - Hidden Item command-line grid game (Fullstack Engineer Assessment Test).",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fomotoko\\HiddenItem\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fomotoko\\HiddenItem\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "run": "php bin/hidden_item.php",
+        "test": "phpunit"
+    }
+}
