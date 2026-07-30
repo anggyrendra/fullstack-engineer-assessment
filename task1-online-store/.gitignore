@@ -1,0 +1,22 @@
+# Dependencies
+/vendor/
+/vendor
+
+# Environment
+.env
+
+# SQLite databases (runtime / generated)
+database/*.sqlite
+database/*.sqlite-wal
+database/*.sqlite-shm
+
+# PHPUnit cache
+.phpunit.cache/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
